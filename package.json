@@ -1,0 +1,24 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is basic Namste React",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padoleshital/Namaste-React.git"
+  },
+  "author": "shital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padoleshital/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/padoleshital/Namaste-React#readme",
+  "dependencies": {
+    "parcel": "^2.13.3"
+  }
+}

@@ -6,7 +6,25 @@
 A: Emmet is the essential toolkit for web-developers. It allows you to type shortcuts that are then expanded into full pieces of code for writing HTML and CSS, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules.
 
 
-## Q: What is React?
+## Q: What is React? why?
+- React is an open-source JavaScript library developed by Meta.
+-  for building interactive user interfaces (UI) efficiently single-page applications (SPAs)
+- component-based architecture, making UI development more modular and reusable.
+
+    - Fast rendering with Virtual DOM
+    - Reusable components for efficient development
+    - Large community and support 
+
+        - Key Feature
+        - Component-Based Architecture.
+        - Virtual DOM (VDOM)
+        - One-Way data binding
+        - Declarative UI
+        - JSX (JavaScript XML)
+        - Hooks (useState, useEffect)
+        - React Router
+        - State Management
+
 
 
 
@@ -18,21 +36,36 @@ A : Content Delivery Network . It provide instant access to React and its Librar
 A : CORS is an HTTP feature that allows a browser to request resources from another domain.
  - CORS prevents malicious websites from accessing data on other sites without permission. 
 
- 
-
-## Q: What is diff between react.development.js and react-dom.development.js?
-###
 
 
-## Q: Difference between a Library and Framework?
-A : React (Library):
+## Q: What is difference between react.development.js and react-dom.development.js?
+A : react.development.js focuses on the internal React logic such as creating and managing components, managing state and lifecycle methods, handling hooks, and other React-specific functionality. it contains the core React library.
 
-Collection of Tools: React is a JavaScript library for building user interfaces, especially for single-page applications.
+react-dom.development.js focuses on interacting with the DOM to render and update the components. it is reaponsible rendering the React components. it provide functionality event handling,reconciliation (updating the DOM efficiently),managing the DOM tree that React uses.
 
-Your Control: With React, you decide how to structure your application. You call the functions and methods provided by React to create components, manage state, and handle events.
 
-Example: Using React is like having a set of tools (like hammers and nails) to build parts of your house (user interface) as you see fit. You are free to design the structure and layout.
- 
- Angular (Framework):
- 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Q: What is diff between react developement.js  and production.js CDN links?
+A : 
+developement.js
+- useful for debugging in developement Phase.
+- helpful for warining error meassge.
+production.js
+- Removes warnings and development-specific features to reduce file size.
+- Reduce page load time.
+- use for production developement.
+
+
+
+## Q: Difference between a React and Angular?
+
+| Feature | React | Angular |
+| --- | --- | --- |
+| Developed by |Meta (startup webApp)|Google (large-scale enterprise applications)|
+| Type | Library (UI) | Full-fledged framework
+| Architecture | Component-based | Component-based but with MVC pattern
+| Language | JavaScript | TypeScript
+| Uses | Virtual DOM (dynamic UI applications) | Real DOM (enterprise-level applications)
+| Performance | updates faster and more efficient |change detection help improve performance
+| Data Binding | One-way data binding |  two-way data binding
+State Managemenet | built-in useState Third-party library (Redux, Context API, Zustand,) | use Rxjs with Observable 
+
