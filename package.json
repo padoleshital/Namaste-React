@@ -2,7 +2,7 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "This is basic Namste React",
-  "main": "index.js",
+ 
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -20,5 +20,12 @@
   "homepage": "https://github.com/padoleshital/Namaste-React#readme",
   "dependencies": {
     "parcel": "^2.13.3"
+  },
+  "browserlist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

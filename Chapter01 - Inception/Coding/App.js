@@ -101,17 +101,5 @@ const parent = React.createElement(
         React.createElement("p", { id: "para" }, "Pragraph of the page")]
       )
   );  
-
-  
-
-
-
-
-
-
-
-
-
-
 const root = ReactDOM.createRoot(document.getElementById("root")); 
 root.render(parent);
