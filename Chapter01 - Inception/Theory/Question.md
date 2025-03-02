@@ -6,7 +6,12 @@
 A: Emmet is the essential toolkit for web-developers. It allows you to type shortcuts that are then expanded into full pieces of code for writing HTML and CSS, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules.
 
 
+## Q: Why is React known as React?
+A: React is called React because it reacts to changes in the state or props of its components. This reactivity is a core principle of React.
+
+
 ## Q: What is React? why?
+A: 
 - React is an open-source JavaScript library developed by Meta.
 -  for building interactive user interfaces (UI) efficiently single-page applications (SPAs)
 - component-based architecture, making UI development more modular and reusable.
@@ -24,8 +29,6 @@ A: Emmet is the essential toolkit for web-developers. It allows you to type shor
         - Hooks (useState, useEffect)
         - React Router
         - State Management
-
-
 
 
 ## Q: What is `CDN`? why use it?
@@ -69,3 +72,13 @@ production.js
 | Data Binding | One-way data binding |  two-way data binding
 State Managemenet | built-in useState Third-party library (Redux, Context API, Zustand,) | use Rxjs with Observable 
 
+## Q:  What is async and defer? 
+A :  The script is downloaded asynchronously (in parallel with the HTML parsing).
+    `<script async src="script.js"></script>`
+    The script is downloaded asynchronously, but execution is delayed until the HTML is fully parsed.
+    `<script defer src="script.js"></script>`
+
+
+## Reference
+
+https://www.youtube.com/watch?v=IrHmpdORLu8

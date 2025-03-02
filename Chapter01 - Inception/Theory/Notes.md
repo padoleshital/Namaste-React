@@ -22,7 +22,6 @@
 - do not use-
 `<div id="root"> <h1>Shital is here</h1></div>`
 
-
 ## References:
 
 - https://legacy.reactjs.org/docs/cdn-links.html
