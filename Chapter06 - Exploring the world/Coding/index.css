@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* select all css */
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: "Poppins", sans-serif;  
+}
+
+
+
+/* card css */
+.restaurant-container {
+  margin-top: 140px;
+	background: #fff;
+	display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 1rem;
+  max-width: 1500px;
+  gap: 10px; 
+  width: 100%
+}
+.restaurant-card {  
+  background: #fff;
+  border-radius: 10px;
+  width: 300px;
+  padding: 0 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.restaurant-card:hover{
+  border: 1px solid rgb(219, 218, 218);
+  border-radius: 20px;
+  padding: 2px 2px 2px 2px;
+  box-shadow: 5px 5px 20px darkgray
+}
+.rest-info{
+      padding: 0 15px 15px;
+      line-height: 1.5; 
+    }
+
+.name-rating{
+  display: flex  ;
+  align-items: center;
+  gap: 86px;
+}
+
+.rest-image{
+    border-radius: 20px;
+    padding: 2px 2px 2px 2px;
+    width: 100%;
+    height: 300px;
+}
+
+.rest-cuisines{
+  justify-content: start;
+  overflow: hidden;
+}
+
+.rest-name{
+    margin: 0px;   
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    display: inline-block;
+    justify-content: start;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rating{
+  text-align: center;
+  background-color: #057a32;
+  color: white;
+  border-radius: 8px;
+  width: 80px;
+}
+
+/* Search Button */
+
+.search-container{
+  position: relative;
+  margin-left: 164px;
+  height: 50px;
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.search-container i,
+.search-container .search-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-container i {
+  left: 20px;
+  font-size: 30px;
+  color: #707070;
+}
+.search-container input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  /* border: 1px solid #bcb8b8; */
+  padding: 0 155px 0 65px;
+  
+}
+.search-container .search-button {
+  right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 7px 17px;
+  border-radius: 6px;
+  background-color: #4070f4;
+  cursor: pointer;
+}
+.search-container .search-button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+.top-Rated{
+  display: flex;
+  justify-content: space-between; 
+  max-width: 1500px;
+  height: 50px;
+  width: 100%;
+  max-width: 480px;
+  background: #fff;
+}
+
+
+.filter-container
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1600px;
+}
+
+
+/* SEARCH ICONE */
+.search-container > i {
+  font-size: 20px;
+  color: #333;
+}
+
+.title{
+    background-color: yellow;
+  }
+  .ReactImage{
+    border: 1px solid red;
+  }
+  .paragraph{
+    color:green
+  }
+
+  .Header > ul > li {
+    display: flex;
+  }
+
+  .nav-bar{
+    list-style: none;
+  }
+  .Header{
+    position: fixed;
+    top:0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%; 
+    height: 91px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.Profile-Name{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.fa {
+  margin: 20px;
+  margin: auto;
+}
+
+
+  .nav-items > ul{
+    display: flex;
+  }
+  .nav-items > ul > li{ 
+    margin: 10px;
+    padding: 2px;
+  }
+
+ /*Footer css  */
+ .footer{
+  background-color: hsl(0, 3%, 93%);
+  text-align:center;
+  padding: 20px;
+  text-decoration: none;
+
+}
+ 
+ /* Shimmer card */
+ .shimmer-card{
+  display: flex; 
+  flex-wrap: wrap;
+  margin-top: 150px;
+  width: 30%;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.shimmer-card{
+  flex-basis: 250;
+  padding:20px;
+  margin-bottom: 20px;
+}
+.shimmer-image{
+  background-color: #e4e0e0;
+  width: 300px;
+  height:150px;
+ }
+
+.shimmer-text {
+  justify-content: start; 
+  background-color: #d6d1d1;
+  width: 54%;
+  padding:10px;
+  margin-top:0px
+}
+.shimmer-details{
+  background-color: #d8d4d4 ;
+  width: 54%;
+  padding:10px;
+  margin:0px
+}
+
+.shimmer-container{
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+}
+.filter{
+  display: flex;
+  margin-top: 116px;
+}
+
+.btn-login{
+  background-color: #057a32;
+  color:white;
+  border: none;
+  margin: 4px;
+  margin-left: 27px;
+  cursor:pointer;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+

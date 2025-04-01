@@ -39,4 +39,24 @@ A : useState is use for event function
 - Functional components with Hooks make it easier to reuse logic across multiple components.
 
 ---
+### Q : When useEffects called in react component?
+- useEffect runs on every render.
+- The useEffect Hook allows you to perform side effects in your components.
+- fetching data, directly updating the DOM, and timers.
+- useEffect accepts two arguments. The second argument is optional.
+- `useEffect(<function>, <dependency>)`
 
+`useEffect(() => {
+  //Runs on every render
+});`
+
+- useEffect runs on the first render
+`useEffect(() => {
+  //Runs only on the first render
+}, []);`
+
+- Props or state values
+`useEffect(() => {
+  //Runs on the first render
+  //And any time any dependency value changes
+}, [prop, state]);`

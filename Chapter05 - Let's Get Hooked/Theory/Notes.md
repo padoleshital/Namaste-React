@@ -14,4 +14,4 @@
 
 
 ## Project
-# [Website using Functional component](https://moonlit-starship-cbcc1d.netlify.app/ )
+# [Created website using functional component](https://moonlit-starship-cbcc1d.netlify.app/ )
