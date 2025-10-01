@@ -1,0 +1,11 @@
+.display
+{
+   
+    width:80%;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+     margin-left:20px ;
+}
