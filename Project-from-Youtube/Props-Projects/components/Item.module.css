@@ -1,0 +1,9 @@
+.kgSpan{
+    font-size: 13px;
+    color:red;
+}
+.kgBg{
+    background-color: yellow;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
