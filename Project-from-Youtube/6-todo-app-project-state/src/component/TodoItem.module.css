@@ -1,0 +1,9 @@
+.itemsContainer{
+    text-align: left;
+}
+.kgButton{
+    margin: 10px;
+    min-width: 89px;
+    padding: 5px;
+    border-radius: 5px;
+}
